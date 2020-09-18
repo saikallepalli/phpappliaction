@@ -125,11 +125,11 @@ $conn->close();
   color: #EF3B3A;
 }
 body {
-  background: #8DC26F; /* fallback for old browsers */
-  background: -webkit-linear-gradient(right, #8DC26F, #8DC26F);
-  background: -moz-linear-gradient(right, #76b852, #8DC26F);
-  background: -o-linear-gradient(right, #76b852, #8DC26F);
-  background: linear-gradient(to left, #76b852, #8DC26F);
+  background: #76b852; /* fallback for old browsers */
+  background: -webkit-linear-gradient(right, #76b852, #76b852);
+  background: -moz-linear-gradient(right, #76b852, #76b852);
+  background: -o-linear-gradient(right, #76b852, #76b852);
+  background: linear-gradient(to left, #76b852, #76b852);
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;      
