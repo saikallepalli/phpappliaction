@@ -126,7 +126,7 @@ $conn->close();
 }
 body {
   background: #8DC26F; /* fallback for old browsers */
-  background: -webkit-linear-gradient(right, #76b852, #8DC26F);
+  background: -webkit-linear-gradient(right, #8DC26F, #8DC26F);
   background: -moz-linear-gradient(right, #76b852, #8DC26F);
   background: -o-linear-gradient(right, #76b852, #8DC26F);
   background: linear-gradient(to left, #76b852, #8DC26F);
