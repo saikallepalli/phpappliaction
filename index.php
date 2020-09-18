@@ -1,8 +1,7 @@
 <?php
 if(isset($_POST["submit"])){
 
- $name=$_POST['name'];
- 
+
  $email=$_POST['email'];
  
 $servername = "localhost";
@@ -16,8 +15,8 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 	
 }
-$sql = "INSERT INTO  formsample (name,email)
-VALUES ('$name', '$email')";
+$sql = "INSERT INTO  formsample (email)
+VALUES ('$email')";
 if ($conn->query($sql) === TRUE) {
 
    header("Location: thankyou.php");;
@@ -145,8 +144,7 @@ body {
   <div class="form">
     
     <form class="login-form">
-      <input type="text" name="name" id="name" placeholder="name"/>
-      
+            
       <input type="email" name="email" id="email" placeholder="email"/>
 	 <input type="submit" name="submit" id="submit" value="submit"/>
       
