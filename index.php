@@ -102,7 +102,7 @@ $conn->close();
   clear: both;
 }
 .container .info {
-  margin: 50px auto;
+  margin: 49px auto;
   text-align: center;
 }
 .container .info h1 {
