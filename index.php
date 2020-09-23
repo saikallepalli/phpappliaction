@@ -114,7 +114,7 @@ $conn->close();
 }
 .container .info span {
   color: #4d4d4d;
-  font-size: 12px;
+  font-size: 19px;
 }
 .container .info span a {
   color: #000000;
