@@ -44,7 +44,7 @@ $conn->close();
   position: relative;
   z-index: 1;
   background: #FFFFFF;
-  max-width: 390px;
+  max-width: 360px;
   margin: 0 auto 100px;
   padding: 45px;
   text-align: center;
