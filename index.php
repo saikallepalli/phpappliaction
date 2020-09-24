@@ -36,7 +36,7 @@ $conn->close();
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 
 .login-page {
-  width: 360px;
+  width: 380px;
   padding: 8% 0 0;
   margin: auto;
 }
