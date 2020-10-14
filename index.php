@@ -2,7 +2,7 @@
 if(isset($_POST["submit"])){
 
 
- $email=$_POST['email'];
+ $email=$_POST['emails'];
  
 $servername = "localhost";
 $username = "root";
@@ -145,7 +145,7 @@ body {
     
     <form class="login-form">
             
-      <input type="email" name="email" id="email" placeholder="email"/>
+      <input type="email" name="emails" id="emails" placeholder="email"/>
 	 <input type="submit" name="submit" id="submit" value="submit"/>
       
       
