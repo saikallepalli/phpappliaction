@@ -43,7 +43,7 @@ $conn->close();
 .form {
   position: relative;
   z-index: 1;
-  background: #FFFFFF;
+  background: #8B0000;
   max-width: 360px;
   margin: 0 auto 100px;
   padding: 45px;
