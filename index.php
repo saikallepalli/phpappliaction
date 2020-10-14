@@ -19,7 +19,7 @@ $sql = "INSERT INTO  formsample (email)
 VALUES ('$email')";
 if ($conn->query($sql) === TRUE) {
 
-   header("Location: thankyou.php");;
+   header("Location: thankyouu.php");;
 } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
 }
